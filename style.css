@@ -1,0 +1,172 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Oswald", sans-serif;
+}
+
+/* CONTAINERS */
+
+.first-diagram,
+.game-section,
+.second-one,
+.second-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 15px auto;
+    padding: auto;
+}
+
+.first-diagram,
+.second-form{
+    border: 1px rgb(112, 107, 107) solid;
+    border-radius: 10px;
+    width: 300px;
+    padding: 15px;
+    font-weight: bold;
+}
+
+.form-one{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    padding: 15px;
+    width: 200px;
+}
+
+.game-section,
+.second-form,
+.winner-board{
+    display: none;
+}
+
+.general-turn-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+header{
+    text-align: center;
+    background-color: rgb(158, 61, 61);
+    color: azure;
+    padding: 10px;
+}
+
+.how-to-play{
+    display: none;
+    background-color: wheat;
+    color: rgb(100, 23, 172);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    margin: auto;
+    padding: 15px;
+    position: fixed;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%)
+}
+
+.name-score{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 120px;
+}
+
+.result-place{
+    border: solid 1px rgb(40, 35, 35);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.one-player-form label,
+.two-player-form label{
+    margin-bottom: 20px;
+}
+
+
+/* BUTTONS */
+a,
+button,
+.next-btn:hover{
+    cursor: pointer;
+}
+
+.close-htp{
+    padding: 5px;
+    margin: auto;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: rgb(240, 202, 131);
+    color: blueviolet;
+    border-radius: 5px;
+    border: solid 1px brown;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+.exit-btn,
+.new-game-button,
+.next-turn-button{
+    display: block;
+    padding: 10px 25px;
+    margin: 15px auto;
+}
+
+.exit-btn,
+.next-btn,
+.new-game-button,
+.next-turn-button,
+.result-place,
+.start-game-btn,
+.shape-button,
+.tiebreaker-button{
+    font-family: "Space Mono", monospace;
+    background-color: rgb(104, 40, 40);
+    color: azure;
+    font-weight: bold;
+    border-radius: 20px;
+    font-size: 1.5rem;
+}
+
+.rock-button,
+.paper-button,
+.scissors-button,
+.result-place{
+    background-size: 340px 200px;
+    width: 340px;
+    height: 200px;
+    margin: 10px;
+}
+
+.next-btn{
+    padding: 6px 60px;
+    margin-top: 10px;
+}
+.next-turn-button{
+    padding: 6px;
+    margin-top: 10px;
+}
+
+.start-game-btn{
+    padding: 6px 20px;
+    margin-top: 20px;
+}
+/* TEXT */
+.first-diagram a{
+    text-decoration: underline;
+    color: rgb(32, 32, 204);
+}
+
+.emergency{
+    display: none;
+}
